@@ -1,8 +1,8 @@
 public class Transformer {
 
     int x;
-    Gun gunLeft; //левая пушка
-    Gun gunRight; //правая пушка
+    Gun gunLeft = new Gun(); //левая пушка
+    Gun gunRight = new Gun(); //правая пушка
 
     public Transformer(){
 

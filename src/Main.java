@@ -20,6 +20,7 @@ public class Main {
 
         optimus2.fire();
         System.out.println(optimus2.gunLeft);
+        System.out.println(optimus2.gunRight);
 
     }
 
