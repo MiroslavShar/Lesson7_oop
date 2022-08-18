@@ -22,9 +22,16 @@ public class Main {
         System.out.println(optimus2.gunLeft);
         System.out.println(optimus2.gunRight);
 
+        Decepticon megatron = new Decepticon();
+
+        megatron.run();
+        System.out.println(megatron.x);
+        megatron.fire();
+        System.out.println(megatron.gunLeft);
+        System.out.println(megatron.gunRight);
+
+
     }
-
-
 
 
 }

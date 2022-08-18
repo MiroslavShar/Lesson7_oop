@@ -12,4 +12,6 @@ public class Gun { // Класс Пушка
         this.ammoCount -= 1;
         return ammoCount;
     }
+
+
 }

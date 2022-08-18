@@ -1,4 +1,4 @@
-public class Transformer {
+public class Transformer implements IEnergyGenerator {
 
     int x;
     Gun gunLeft = new Gun(); //левая пушка
@@ -28,4 +28,20 @@ public class Transformer {
         this.gunLeft.fire();
     }
 
+    @Override
+    public void loadFuel() {
+
+    }
+
+    @Override
+    public void generateEnergy() {
+
+    }
+    
+
+
+
+
+
 }
+
